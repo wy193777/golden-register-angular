@@ -8,6 +8,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import 'hammerjs';
 
 import { AppComponent } from './app.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const modules = [
   BrowserModule,
@@ -19,7 +20,8 @@ const modules = [
 ];
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent,
   ],
   imports: modules,
   exports: modules,
